@@ -67,7 +67,7 @@ const PastProjectTitle = styled.h1`
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
-  letter-spacing: normal;
+  letter-spacintg: normal;
   text-align: center;
   color: #27265e;
   padding-top: 72px;
