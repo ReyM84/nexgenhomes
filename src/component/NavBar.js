@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import SimpleMenu from "./SimpleMenu";
 
 const Navbar = styled.nav`
   font-family: Avenir;
@@ -8,6 +9,19 @@ const Navbar = styled.nav`
   position: absolute;
   left: 500px;
   top: 160px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const NavbarDiv = styled.div`
+  position: relative;
+  height: 457px;
+  background-color: #ffffff;
+  width: 100.1vw;
+  @media (max-width: 768px) {
+    height: 100px;
+  }
 `;
 
 const Link = styled.a`
@@ -28,27 +42,25 @@ const Logo = styled.img`
   object-fit: contain;
   left: 4.1875rem;
   top: 10%;
-
   position: absolute;
+  @media (max-width: 768px) {
+    left: 70%;
+  }
 `;
 
 const NavBar = () => {
   return (
-    <div
-      style={{
-        position: "relative",
-        height: "457px",
-        backgroundColor: "#ffffff",
-        width: "100.1vw"
-      }}
-    >
-      <Logo src="./Assets/next-gen-logo.jpg"></Logo>
-      <Navbar>
-        <Link href="#">Home</Link>
-        <Link href="#about">About</Link>
-        <Link href="#family">Contact</Link>
-        <Link href="#">Past Project</Link>
-      </Navbar>
+    <div>
+      <NavbarDiv id="#home">
+        <Logo src="./Assets/next-gen-logo.jpg"></Logo>
+        <Navbar>
+          <Link href="#home">Home</Link>
+          <Link href="#about">About</Link>
+          <Link href="#contact">Contact</Link>
+          <Link href="#projects">Past Project</Link>
+        </Navbar>
+        <SimpleMenu />
+      </NavbarDiv>
     </div>
   );
 };

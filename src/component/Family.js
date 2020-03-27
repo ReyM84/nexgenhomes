@@ -6,6 +6,9 @@ const FamilyContainer = styled.div`
   height: 100vh;
   background-color: #27265e;
   position: relative;
+  @media (max-width: 768px) {
+    height: 175vh;
+  }
 `;
 
 const FamilyParagraph = styled.p`
@@ -20,10 +23,18 @@ const FamilyParagraph = styled.p`
   color: #faf5f5;
   width: 40%;
   margin: auto;
+
+  @media (max-width: 768px) {
+    width: 80vw;
+  }
 `;
 
 const FamilyBody = styled.div`
   margin-top: 96px;
+
+  @media (max-width: 768px) {
+    margin-top: 300px;
+  }
 `;
 
 const FamilyPic = styled.img`
@@ -31,12 +42,18 @@ const FamilyPic = styled.img`
   height: 38%;
   left: 90px;
   top: 110px;
+
+  @media (max-width: 768px) {
+    width: 40vw;
+    height: 20vh;
+    left: 30%;
+  }
 `;
 
 const Family = () => {
   return (
     <div>
-      <FamilyContainer id="family">
+      <FamilyContainer id="contact">
         <FamilyPic src="./Assets/brandonfamily.png" />
         <br />
         <FamilyBody>

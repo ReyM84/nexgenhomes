@@ -26,3 +26,29 @@
 body {
   background-color: #27265e;
 }
+
+#root > div > div:nth-child(1) > div > div > button {
+  position: relative;
+  top: 2rem;
+  color: #27265e;
+}
+
+@media (min-width: 1024px) {
+  #root > div > div:nth-child(1) > div > div > button {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .thumbs-wrapper {
+    display: none;
+  }
+  .carouselimgs {
+    max-width: 10px !important;
+  }
+}
+
+.menulink {
+  text-decoration: none;
+  color: #27265e;
+  font-family: GillSans;
+}

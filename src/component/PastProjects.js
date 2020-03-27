@@ -76,7 +76,7 @@ const PastProjectTitle = styled.h1`
 const PastProjects = () => {
   return (
     <div>
-      <PastProjectsContainer>
+      <PastProjectsContainer id="#project">
         <PastProjectTitle>Past Projects</PastProjectTitle>
         <GalleryDiv>
           <Gallery images={IMAGES} margin="15px" />
