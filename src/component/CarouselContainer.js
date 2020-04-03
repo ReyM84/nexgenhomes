@@ -10,7 +10,6 @@ const ContainerDiv = styled.div`
   background-color: #cc0f36;
   position: relative;
   @media (max-width: 768px) {
-    height: 70vh;
   }
 `;
 
@@ -48,53 +47,71 @@ const CarouselContainer = () => {
     <div>
       <ContainerDiv>
         <Title id="about">Let Us Build Your NexGen Custom Home Today!</Title>
-        <CarouselC autoPlay="true" infiniteLoop="true">
+        <CarouselC autoPlay="true" infiniteLoop="true" dynamicHeight="true">
           <div>
             <img
               className="carouselimgs"
               alt="past housing project"
-              src="./Assets/0d2e7c32-229b-40ba-8202-d46c9e82f40a.jpeg"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/7887387a-6591-4af9-a3cc-dac66dcdc18d.jpeg"
             />
           </div>
           <div>
             <img
               className="carouselimgs"
               alt="past housing project"
-              src="./Assets/4d2b6894-5ddf-4cba-8dc5-15e2da90cebf.jpeg"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0638.jpg"
             />
           </div>
           <div>
             <img
               className="carouselimgs"
               alt="past housing project"
-              src="./Assets/IMG_0940.JPG"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0639.jpg"
             />
           </div>
           <div>
             <img
               className="carouselimgs"
               alt="past housing project"
-              src="./Assets/IMG_1374.JPG"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0872.jpg"
             />
           </div>
           <div>
             <img
               className="carouselimgs"
               alt="past housing project"
-              src="./Assets/IMG_0593.JPG"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0877.jpg"
             />
           </div>
           <div>
             <img
               className="carouselimgs"
               alt="past housing project"
-              src="./Assets/0d2e7c32-229b-40ba-8202-d46c9e82f40a.jpeg"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0878.jpg"
             />
           </div>
           <div>
             <img
               alt="past housing project"
-              src="./Assets/4d2b6894-5ddf-4cba-8dc5-15e2da90cebf.jpeg"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0879.jpg"
+            />
+          </div>
+          <div>
+            <img
+              alt="past housing project"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0880.jpg"
+            />
+          </div>
+          <div>
+            <img
+              alt="past housing project"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0881.jpg"
+            />
+          </div>
+          <div>
+            <img
+              alt="past housing project"
+              src="https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_1274.jpg"
             />
           </div>
         </CarouselC>

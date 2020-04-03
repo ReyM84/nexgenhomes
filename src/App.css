@@ -42,9 +42,9 @@ body {
   .thumbs-wrapper {
     display: none;
   }
-  .carouselimgs {
+  /* .carouselimgs {
     max-width: 10px !important;
-  }
+  } */
 }
 
 .menulink {
