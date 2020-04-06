@@ -6,8 +6,11 @@ const FamilyContainer = styled.div`
   height: 100vh;
   background-color: #27265e;
   position: relative;
-  @media (max-width: 768px) {
+  @media (max-width: 575.98px) {
     height: 175vh;
+  }
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    height: 200vh;
   }
 `;
 
@@ -24,16 +27,29 @@ const FamilyParagraph = styled.p`
   width: 40%;
   margin: auto;
 
-  @media (max-width: 768px) {
+  @media (max-width: 575.98px) {
     width: 80vw;
+  }
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    left: 1px;
+    width: 80vw;
+  }
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    width: 60vw;
   }
 `;
 
 const FamilyBody = styled.div`
   margin-top: 96px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 575.98px) {
     margin-top: 300px;
+  }
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    margin-top: 180px;
+  }
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    margin-top: 180px;
   }
 `;
 
@@ -43,10 +59,22 @@ const FamilyPic = styled.img`
   left: 90px;
   top: 110px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 575.98px) {
     width: 40vw;
     height: 20vh;
     left: 30%;
+  }
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    left: 40%;
+    width: 150px;
+    height: 150px;
+    top: 20px;
+  }
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    left: 40%;
+    width: 150px;
+    height: 150px;
+    top: 20px;
   }
 `;
 

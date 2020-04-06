@@ -9,7 +9,14 @@ const ContainerDiv = styled.div`
   border: solid 1px #707070;
   background-color: #cc0f36;
   position: relative;
-  @media (max-width: 768px) {
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    height: 110vh;
+  }
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    left: 1%;
+    top: 15%;
+    height: 110vh;
+    left: 0px;
   }
 `;
 
@@ -17,9 +24,17 @@ const CarouselC = styled(Carousel)`
   width: 45vw;
   margin: 295px auto 0 auto;
 
-  @media (max-width: 768px) {
+  @media (max-width: 575.98px) {
     width: 80vw;
     margin: 250px auto;
+  }
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    width: 42vw;
+    margin: 110px auto;
+  }
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    margin-top: 35vh;
+    width: 60vw;
   }
 `;
 
@@ -37,8 +52,18 @@ const Title = styled.h1`
   top: 110px;
   width: 100%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 575.98px) {
     font-size: 30px;
+  }
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    font-size: 35px;
+    top: 30px;
+  }
+
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    font-size: 35px;
+    padding-top: 80px;
+    top: 10%;
   }
 `;
 

@@ -38,7 +38,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
   .thumbs-wrapper {
     display: none;
   }
@@ -51,4 +51,10 @@ body {
   text-decoration: none;
   color: #27265e;
   font-family: GillSans;
+}
+
+@media (max-width: 1024px) {
+  .pp {
+    display: none;
+  }
 }

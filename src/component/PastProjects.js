@@ -51,6 +51,9 @@ const PastProjectsContainer = styled.div`
   height: 100vh;
   width: 100vw;
   position: relative;
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 const GalleryDiv = styled.div`

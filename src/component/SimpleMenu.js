@@ -48,7 +48,7 @@ export default function SimpleMenu() {
           </a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <a className="menulink" href="#projects">
+          <a className="menulink pp" href="#projects">
             Past Project{" "}
           </a>
         </MenuItem>
