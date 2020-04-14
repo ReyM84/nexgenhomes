@@ -55,7 +55,7 @@ const FamilyBody = styled.div`
 
 const FamilyPic = styled.img`
   position: absolute;
-  height: 38%;
+  height: 30%;
   left: 90px;
   top: 110px;
 
@@ -75,6 +75,11 @@ const FamilyPic = styled.img`
     width: 150px;
     height: 150px;
     top: 20px;
+  }
+
+  @media (max-width: 1200px) and (min-width: 992px) {
+    height: 20%;
+    left: 5%;
   }
 `;
 

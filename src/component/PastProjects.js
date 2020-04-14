@@ -4,46 +4,44 @@ import Gallery from "react-grid-gallery";
 
 const IMAGES = [
   {
-    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0594.JPG",
-    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0594.JPG",
+    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/new.jpeg",
+    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/new.jpeg",
     thumbnailWidth: 320,
-    thumbnailHeight: 174
+    thumbnailHeight: 174,
   },
   {
-    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0595.JPG",
-    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0595.JPG",
+    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/new2.jpeg",
+    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/new2.jpeg",
     thumbnailWidth: 320,
-    thumbnailHeight: 212
+    thumbnailHeight: 212,
   },
 
   {
+    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/new3.jpeg",
+    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/new3.jpeg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+  },
+  {
     src:
       "https://nexgenhousing.s3-us-west-1.amazonaws.com/7887387a-6591-4af9-a3cc-dac66dcdc18d.jpeg",
     thumbnail:
       "https://nexgenhousing.s3-us-west-1.amazonaws.com/7887387a-6591-4af9-a3cc-dac66dcdc18d.jpeg",
     thumbnailWidth: 320,
-    thumbnailHeight: 212
+    thumbnailHeight: 174,
   },
   {
-    src:
-      "https://nexgenhousing.s3-us-west-1.amazonaws.com/58857241795__0C9E6236-8311-4141-8FAA-42B8C3BFF6E1.JPG",
-    thumbnail:
-      "https://nexgenhousing.s3-us-west-1.amazonaws.com/58857241795__0C9E6236-8311-4141-8FAA-42B8C3BFF6E1.JPG",
+    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_1274.jpg",
+    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_1274.jpg",
     thumbnailWidth: 320,
-    thumbnailHeight: 174
+    thumbnailHeight: 174,
   },
   {
-    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0594.JPG",
-    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0594.JPG",
+    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0872.jpg",
+    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0872.jpg",
     thumbnailWidth: 320,
-    thumbnailHeight: 174
+    thumbnailHeight: 212,
   },
-  {
-    src: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0595.JPG",
-    thumbnail: "https://nexgenhousing.s3-us-west-1.amazonaws.com/IMG_0595.JPG",
-    thumbnailWidth: 320,
-    thumbnailHeight: 212
-  }
 ];
 
 const PastProjectsContainer = styled.div`
